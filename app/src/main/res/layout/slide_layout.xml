@@ -4,8 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!--//TANGGAL PENGERJAAN-->
-    <!--//SELASA 21 MEI 2019, 10116313, KEMAS RISMAN FAUZAN-->
     <ImageView
         android:id="@+id/slide_image"
         android:layout_width="239dp"

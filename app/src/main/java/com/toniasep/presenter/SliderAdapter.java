@@ -1,3 +1,11 @@
+/**
+ * TONI App.
+ * Tanggal Pengerjaan: 22 Mei 2019
+ * NIM: 10116308
+ * Nama: Asep Toni
+ * Kelas: IF-7
+ */
+
 package com.toniasep.presenter;
 
 
