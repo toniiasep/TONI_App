@@ -3,4 +3,7 @@
     <string name="back">BACK</string>
     <string name="next">NEXT</string>
     <string name="finish">Finish</string>
+
+    <string name="inputText1">Masukan Nama Teman</string>
+    <string name="btnUpdateText">UPDATE</string>
 </resources>

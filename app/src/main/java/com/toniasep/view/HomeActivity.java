@@ -17,6 +17,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.RelativeLayout;
 
 import com.toniasep.R;
 import com.toniasep.presenter.ContactFragment;
@@ -25,6 +26,8 @@ import com.toniasep.presenter.ProfileFragment;
 
 public class HomeActivity extends AppCompatActivity {
 
+    RelativeLayout profile;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +35,8 @@ public class HomeActivity extends AppCompatActivity {
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
         bottomNav.setOnNavigationItemSelectedListener(navListener);
+
+        profile = findViewById(R.id.profile);
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -42,12 +47,15 @@ public class HomeActivity extends AppCompatActivity {
 
                     switch (menuItem.getItemId()){
                         case R.id.nav_pprofile:
+                            profile.setVisibility(View.INVISIBLE);
                             selectedFragment = new ProfileFragment();
                             break;
                         case R.id.nav_contact:
+                            profile.setVisibility(View.INVISIBLE);
                             selectedFragment = new ContactFragment();
                             break;
                         case R.id.nav_friends:
+                            profile.setVisibility(View.INVISIBLE);
                             selectedFragment = new FriendsFragment();
                             break;
                     }
