@@ -141,8 +141,7 @@ public class MainActivity extends AppCompatActivity {
 
                 mBackBtn.setText("Back");
 
-            }
-            else {
+            }else {
 
                 mNextBtn.setEnabled(true);
                 mBackBtn.setEnabled(true);

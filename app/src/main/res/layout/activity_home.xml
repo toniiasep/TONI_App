@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/bottom_navigation"/>
 
-    <include layout="@layout/fragment_profile"/>
+    <include layout="@layout/fragment_profile" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
